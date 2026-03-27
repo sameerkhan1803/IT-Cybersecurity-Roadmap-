@@ -1,55 +1,47 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
-
 body {
-    background: #0f172a;
-    color: #e2e8f0;
-    line-height: 1.6;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0a0f1c;
+    color: #e6edf3;
 }
 
 /* HERO */
 .hero {
     height: 60vh;
-    background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') no-repeat center/cover;
+    background: linear-gradient(135deg, #0a0f1c, #111827);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .overlay {
-    background: rgba(0,0,0,0.6);
-    padding: 40px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    color: #38bdf8;
+    font-size: 3rem;
+    color: #60a5fa;
 }
 
 .hero p {
-    margin-top: 10px;
-    color: #cbd5f5;
+    color: #9ca3af;
 }
 
 /* CONTENT */
 .container {
-    padding: 40px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
+    padding: 40px;
 }
 
 h2 {
-    margin-top: 30px;
-    color: #38bdf8;
+    color: #3b82f6;
+    margin-top: 40px;
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
 }
 
 h3 {
-    margin-top: 20px;
     color: #22c55e;
 }
 
@@ -59,21 +51,17 @@ ul {
 
 table {
     width: 100%;
-    margin-top: 20px;
     border-collapse: collapse;
+    margin-top: 20px;
 }
 
-table, th, td {
-    border: 1px solid #334155;
+th, td {
+    border: 1px solid #1f2937;
+    padding: 10px;
 }
 
 th {
     background: #1e293b;
-}
-
-td, th {
-    padding: 10px;
-    text-align: center;
 }
 
 /* FOOTER */
@@ -81,6 +69,5 @@ footer {
     text-align: center;
     padding: 20px;
     background: #020617;
-    margin-top: 40px;
-    border-top: 1px solid #334155;
+    border-top: 1px solid #1f2937;
 }
