@@ -7,19 +7,21 @@
 <title>IT & Cybersecurity Roadmap</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <!-- NAVBAR -->
 <nav class="navbar">
-<h2>Cyber Roadmap</h2>
+<h2>Roadmap</h2>
 <div>
-<button onclick="toggleTheme()">Toggle Mode</button>
-<a href="#" class="btn">Download PDF</a>
+<a href="#">Home</a>
+<a href="#">Modules</a>
+<a href="#">Careers</a>
+<button onclick="toggleMode()">🌙</button>
 </div>
 </nav>
 
@@ -27,115 +29,106 @@
 <header class="hero">
 <div class="overlay">
 <h1>IT & Cybersecurity Roadmap</h1>
-<p>Build Skills • Stay Consistent • Become Industry Ready</p>
+<p>Start from Zero → Build Skills → Become Industry Ready</p>
+<button class="btn">Download PDF</button>
 </div>
 </header>
 
 <main class="container">
 
-<section class="card">
+<section class="reveal">
 <h2>Target Roles</h2>
 <ul>
-<li>IT Support</li>
+<li>Desktop Support Engineer</li>
+<li>IT Support Specialist</li>
 <li>Network Engineer</li>
 <li>Cybersecurity Analyst</li>
 <li>SOC Analyst</li>
-<li>VAPT / Pentester</li>
+<li>Penetration Tester / VAPT</li>
 </ul>
 </section>
 
-<section class="card">
-<h2>Program Structure</h2>
-<table>
-<tr><th>Module</th><th>Domain</th><th>Level</th></tr>
-<tr><td>Module 1</td><td>Computer Fundamentals</td><td>Beginner</td></tr>
-<tr><td>Module 2</td><td>Networking</td><td>Beginner → Advanced</td></tr>
-<tr><td>Module 3</td><td>CCNA</td><td>Intermediate</td></tr>
-<tr><td>Module 4</td><td>Cybersecurity</td><td>Beginner</td></tr>
-<tr><td>Module 5</td><td>Offensive Security</td><td>Intermediate</td></tr>
-<tr><td>Module 6</td><td>Defensive Security</td><td>Advanced</td></tr>
-</table>
-</section>
-
-<section class="card">
-
+<section class="reveal">
 <h2>Modules</h2>
 
 <h3>Module 1: Computer Fundamentals</h3>
 <ul>
 <li>Computer Basics (Hardware vs Software)</li>
-<li>Input/Output Devices</li>
-<li>CPU, RAM, Storage, Motherboard</li>
-<li>Operating Systems (Windows & Linux Basics)</li>
-<li>File Systems and Processes</li>
-<li>Troubleshooting (Boot Issues, Drivers, Performance)</li>
+<li>CPU, RAM, Storage</li>
+<li>Operating Systems</li>
+<li>Troubleshooting</li>
 </ul>
 
-<h3>Module 2: Networking Fundamentals & Advanced Concepts</h3>
+<h3>Module 2: Networking</h3>
 <ul>
-<li>Network Types and Topologies</li>
-<li>OSI Model, TCP/IP Model</li>
-<li>IP Addressing (IPv4, IPv6, Subnetting)</li>
-<li>Network Devices (Router, Switch, Firewall)</li>
-<li>Protocols (HTTP, FTP, SMTP, TCP/UDP)</li>
-<li>DNS, DHCP, NAT/PAT</li>
+<li>OSI, TCP/IP</li>
+<li>IP Addressing</li>
 <li>Firewall, IDS, IPS, VPN</li>
 </ul>
 
-<h3>Module 3: CCNA Concepts</h3>
+<h3>Module 3: CCNA</h3>
 <ul>
-<li>Ethernet, ARP, ICMP</li>
-<li>VLANs, Trunking, STP</li>
-<li>Static & Dynamic Routing (OSPF, RIP, EIGRP)</li>
-<li>NAT, DHCP, DNS</li>
+<li>Routing, VLAN, STP</li>
 <li>Wireless Networking</li>
-<li>Network Automation Basics</li>
 </ul>
 
-<h3>Module 4: Cybersecurity Core Fundamentals</h3>
+<h3>Module 4: Cybersecurity</h3>
 <ul>
-<li>Cybersecurity vs Information Security</li>
 <li>CIA Triad</li>
-<li>Risk, Threat, Vulnerability</li>
-<li>Types of Hackers</li>
-<li>Common Attacks (Phishing, Malware, DDoS)</li>
-<li>Ethical Hacking Lifecycle</li>
-<li>Security Tools Overview</li>
+<li>Attacks & Hackers</li>
 </ul>
 
 <h3>Module 5: Offensive Security</h3>
 <ul>
-<li>Ethical Hacking Methodology</li>
-<li>Web VAPT (OWASP Top 10)</li>
-<li>SQL Injection, XSS</li>
-<li>Network VAPT</li>
-<li>Tools: Nmap, Burp Suite, Metasploit</li>
+<li>VAPT, Web Security</li>
+<li>Tools: Nmap, Burp Suite</li>
 </ul>
 
 <h3>Module 6: Defensive Security</h3>
 <ul>
-<li>Security Operations Center (SOC)</li>
-<li>Incident Response</li>
-<li>SIEM & Log Analysis</li>
+<li>SOC, SIEM</li>
 <li>Malware Analysis</li>
-<li>Network Security Monitoring</li>
-<li>Firewall & IDS/IPS Management</li>
 </ul>
 
+</section>
+
+<section class="reveal">
+<h2>Career Growth & Salary</h2>
+<table>
+<tr><th>Role</th><th>Avg</th><th>Max</th></tr>
+<tr><td>IT Support</td><td>2-4 LPA</td><td>5 LPA</td></tr>
+<tr><td>Network Engineer</td><td>4-6 LPA</td><td>8 LPA</td></tr>
+<tr><td>SOC Analyst</td><td>4-7 LPA</td><td>9 LPA</td></tr>
+<tr><td>VAPT / Pen Tester</td><td>6-9 LPA</td><td>12 LPA</td></tr>
+</table>
+</section>
+
+<section class="reveal">
+<h2>Certifications</h2>
+<ul>
+<li>CEH – Ethical hacking certification</li>
+<li>CCNA – Networking certification</li>
+<li>Security+ – Cybersecurity basics</li>
+</ul>
+</section>
+
+<section class="thankyou reveal">
+<h2>Thank You</h2>
+<p>Your journey to becoming a professional starts with consistency and dedication.</p>
 </section>
 
 </main>
 
 <footer>
-<p><b>Created by Sameer Khan | MSC Cybersecurity At Amity University Rajasthan | Certified Ethical Hacker - (CEHv12)</b></p>
-<p>sameerkhan58061@gmail.com | www.linkedin.com/in/sameerkhan58061</p>
+<p><b>Created by Sameer Khan | MSC Cybersecurity At Amity University Rajasthan | Certified Ethical Hacker (CEHv12)</b></p>
+
+<p>
+<i class="fa-solid fa-envelope"></i> sameerkhan58061@gmail.com |
+<i class="fa-brands fa-linkedin"></i> www.linkedin.com/in/sameerkhan58061
+</p>
 </footer>
 
-<script>
-function toggleTheme(){
-document.body.classList.toggle("light");
-}
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
