@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    height: 60vh;
+    background: url('https://images.unsplash.com/photo-1518770660439-4636190af475') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #38bdf8;
+}
+
+.hero p {
+    margin-top: 10px;
+    color: #cbd5f5;
+}
+
+/* CONTENT */
+.container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #38bdf8;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #22c55e;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #334155;
+}
+
+th {
+    background: #1e293b;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    margin-top: 40px;
+    border-top: 1px solid #334155;
+}
