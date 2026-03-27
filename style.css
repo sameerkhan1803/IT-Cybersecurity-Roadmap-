@@ -1,33 +1,30 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: radial-gradient(circle at top, #0f172a, #020617);
-    color: #e5e7eb;
+    background: #050816;
+    color: #e2e8f0;
 }
 
 /* HERO */
 .hero {
-    height: 65vh;
-    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
+    height: 60vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .overlay {
-    background: rgba(0,0,0,0.75);
-    padding: 50px;
     text-align: center;
-    border-radius: 12px;
 }
 
 .hero h1 {
     font-size: 3rem;
-    color: #22c55e;
+    color: #a78bfa;
 }
 
-.hero p {
-    color: #cbd5f5;
+.tagline {
+    color: #94a3b8;
 }
 
 /* CONTENT */
@@ -38,8 +35,8 @@ body {
 }
 
 h2 {
-    color: #38bdf8;
-    border-left: 5px solid #22c55e;
+    color: #a78bfa;
+    border-left: 4px solid #a78bfa;
     padding-left: 10px;
 }
 
@@ -56,37 +53,23 @@ table {
 th, td {
     border: 1px solid #1f2937;
     padding: 10px;
+    text-align: center;
 }
 
 th {
-    background: #111827;
+    background: #1e293b;
 }
 
-/* CERT SECTION */
-.cert-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.card {
-    background: #111827;
-    padding: 15px;
+/* THANK YOU */
+.thankyou {
     text-align: center;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    background: #1f2937;
+    margin-top: 50px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     background: #020617;
     border-top: 1px solid #1f2937;
 }
