@@ -1,16 +1,13 @@
-// SCROLL ANIMATION
-const elements = document.querySelectorAll('.fade');
-
-window.addEventListener('scroll', () => {
-elements.forEach(el => {
-const top = el.getBoundingClientRect().top;
-if(top < window.innerHeight) {
-el.classList.add('show');
+// Scroll Animation
+window.addEventListener("scroll", () => {
+document.querySelectorAll(".reveal").forEach(el => {
+if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+el.classList.add("active");
 }
 });
 });
 
-// DARK LIGHT TOGGLE
-function toggleTheme() {
-document.body.classList.toggle('light');
+// Dark/Light Toggle
+function toggleMode() {
+document.body.classList.toggle("light");
 }
