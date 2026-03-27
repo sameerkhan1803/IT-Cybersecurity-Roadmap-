@@ -1,13 +1,15 @@
-// Scroll Animation
-window.addEventListener("scroll", () => {
-document.querySelectorAll(".reveal").forEach(el => {
-if (el.getBoundingClientRect().top < window.innerHeight - 100) {
-el.classList.add("active");
-}
-});
-});
-
-// Dark/Light Toggle
-function toggleMode() {
+function toggleTheme(){
 document.body.classList.toggle("light");
 }
+
+// Scroll animation
+const cards = document.querySelectorAll(".card");
+window.addEventListener("scroll", ()=>{
+cards.forEach(card=>{
+const top = card.getBoundingClientRect().top;
+if(top < window.innerHeight - 50){
+card.style.opacity = 1;
+card.style.transform = "translateY(0)";
+}
+});
+});
